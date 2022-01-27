@@ -13,40 +13,35 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to<a href="https://nextjs.org">mylife</a>
+          Welcome to<a href="https://nextjs.org"> mylife</a>
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Photo &rarr;</h2>
-            <p>Martinique, Oman,...</p>
+            <p>Martinique, Oman, Plongée, la famille, le lycée,...</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Ma vie &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Appuyer pour voir où j'ai fait mes études, pour découvrir ma vie, mon profil instagram,...</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Ma famille</p>
+            <h2>La famille &rarr;</h2>
+            <p>Découvrez toute ma famille, l'arbre généalogique et plein d'autres choses</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Le lycée &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Accédez à tous les cours en ligne.
             </p>
           </a>
         </div>
@@ -58,7 +53,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by <p> Louis </p>
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
